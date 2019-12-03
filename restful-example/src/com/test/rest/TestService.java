@@ -33,7 +33,7 @@ public class TestService {
 	      "{ \"wins\":\"%s\", \"losses\":\"%s\", \"ties\": \"%s\"}";
 	   return String.format(pattern,  wins, losses, ties );   
 	}
-	 
+	   
 	
 	@PUT
 	@Path("/score")
